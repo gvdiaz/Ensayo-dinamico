@@ -1,0 +1,385 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R Rs1
+U 1 1 5E14497A
+P 2650 3200
+F 0 "Rs1" H 2720 3246 50  0000 L CNN
+F 1 "1k" H 2720 3155 50  0000 L CNN
+F 2 "" V 2580 3200 50  0001 C CNN
+F 3 "~" H 2650 3200 50  0001 C CNN
+	1    2650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rs2
+U 1 1 5E145A62
+P 3000 3200
+F 0 "Rs2" H 3070 3246 50  0000 L CNN
+F 1 "2k" H 3070 3155 50  0000 L CNN
+F 2 "" V 2930 3200 50  0001 C CNN
+F 3 "~" H 3000 3200 50  0001 C CNN
+	1    3000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rs3
+U 1 1 5E145C9B
+P 3400 3200
+F 0 "Rs3" H 3470 3246 50  0000 L CNN
+F 1 "4k7" H 3470 3155 50  0000 L CNN
+F 2 "" V 3330 3200 50  0001 C CNN
+F 3 "~" H 3400 3200 50  0001 C CNN
+	1    3400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rs4
+U 1 1 5E145D85
+P 3800 3200
+F 0 "Rs4" H 3870 3246 50  0000 L CNN
+F 1 "10k" H 3870 3155 50  0000 L CNN
+F 2 "" V 3730 3200 50  0001 C CNN
+F 3 "~" H 3800 3200 50  0001 C CNN
+	1    3800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small Js11
+U 1 1 5E1461BC
+P 2650 2850
+F 0 "Js11" V 2650 2924 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 2695 2924 50  0001 L CNN
+F 2 "" H 2650 2850 50  0001 C CNN
+F 3 "~" H 2650 2850 50  0001 C CNN
+	1    2650 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small Js12
+U 1 1 5E146B62
+P 3000 2850
+F 0 "Js12" V 3000 2924 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 3045 2924 50  0001 L CNN
+F 2 "" H 3000 2850 50  0001 C CNN
+F 3 "~" H 3000 2850 50  0001 C CNN
+	1    3000 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small Js13
+U 1 1 5E147635
+P 3400 2850
+F 0 "Js13" V 3400 2924 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 3445 2924 50  0001 L CNN
+F 2 "" H 3400 2850 50  0001 C CNN
+F 3 "~" H 3400 2850 50  0001 C CNN
+	1    3400 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small Js14
+U 1 1 5E14779D
+P 3800 2850
+F 0 "Js14" V 3800 2924 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 3845 2924 50  0001 L CNN
+F 2 "" H 3800 2850 50  0001 C CNN
+F 3 "~" H 3800 2850 50  0001 C CNN
+	1    3800 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Sensor_Proximity:CNY70 U?
+U 1 1 5E148E94
+P 4800 3900
+F 0 "U?" H 4800 4217 50  0000 C CNN
+F 1 "TCRT5000" H 4800 4126 50  0000 C CNN
+F 2 "" H 4800 3700 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/83760/tcrt5000.pdf" H 4800 4000 50  0001 C CNN
+	1    4800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_Small RVdr1
+U 1 1 5E14F9D6
+P 5800 2700
+F 0 "RVdr1" H 5741 2746 50  0000 R CNN
+F 1 "10k" H 5741 2655 50  0000 R CNN
+F 2 "" H 5800 2700 50  0001 C CNN
+F 3 "~" H 5800 2700 50  0001 C CNN
+	1    5800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rdr1
+U 1 1 5E1524AD
+P 5800 3200
+F 0 "Rdr1" H 5870 3246 50  0000 L CNN
+F 1 "1k" H 5870 3155 50  0000 L CNN
+F 2 "" V 5730 3200 50  0001 C CNN
+F 3 "~" H 5800 3200 50  0001 C CNN
+	1    5800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small Jdr1
+U 1 1 5E152C98
+P 5800 2450
+F 0 "Jdr1" V 5800 2403 50  0000 R CNN
+F 1 "Jumper_NC_Small" V 5755 2403 50  0001 R CNN
+F 2 "" H 5800 2450 50  0001 C CNN
+F 3 "~" H 5800 2450 50  0001 C CNN
+	1    5800 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5E153D60
+P 3200 2150
+F 0 "#PWR?" H 3200 2000 50  0001 C CNN
+F 1 "+12V" H 3215 2323 50  0000 C CNN
+F 2 "" H 3200 2150 50  0001 C CNN
+F 3 "" H 3200 2150 50  0001 C CNN
+	1    3200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E154D51
+P 4250 4300
+F 0 "#PWR?" H 4250 4050 50  0001 C CNN
+F 1 "GND" H 4255 4127 50  0000 C CNN
+F 2 "" H 4250 4300 50  0001 C CNN
+F 3 "" H 4250 4300 50  0001 C CNN
+	1    4250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E155337
+P 5300 4350
+F 0 "#PWR?" H 5300 4100 50  0001 C CNN
+F 1 "GND" H 5305 4177 50  0000 C CNN
+F 2 "" H 5300 4350 50  0001 C CNN
+F 3 "" H 5300 4350 50  0001 C CNN
+	1    5300 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2150 3200 2450
+Wire Wire Line
+	2650 2950 2650 3050
+Wire Wire Line
+	3000 2950 3000 3050
+Wire Wire Line
+	3400 2950 3400 3050
+Wire Wire Line
+	3800 2950 3800 3050
+Wire Wire Line
+	2650 3350 2650 3650
+Wire Wire Line
+	3800 3650 3800 3350
+Wire Wire Line
+	3000 3350 3000 3650
+Wire Wire Line
+	3400 3350 3400 3650
+Wire Wire Line
+	3800 3650 4500 3650
+Wire Wire Line
+	4500 3650 4500 3800
+Connection ~ 3800 3650
+Wire Wire Line
+	4500 4000 4250 4000
+Wire Wire Line
+	4250 4000 4250 4300
+Wire Wire Line
+	5100 4000 5300 4000
+Wire Wire Line
+	5300 4000 5300 4350
+Wire Wire Line
+	5800 2350 5800 2200
+Wire Wire Line
+	5800 2550 5800 2600
+Wire Wire Line
+	5800 2800 5800 2900
+Connection ~ 3400 3650
+Wire Wire Line
+	3400 3650 3800 3650
+Connection ~ 3000 3650
+Wire Wire Line
+	3000 3650 3400 3650
+Wire Wire Line
+	2650 3650 3000 3650
+Wire Wire Line
+	2650 2750 2650 2450
+Wire Wire Line
+	2650 2450 3000 2450
+Wire Wire Line
+	3200 2450 3400 2450
+Wire Wire Line
+	3800 2450 3800 2750
+Connection ~ 3200 2450
+Wire Wire Line
+	3400 2750 3400 2450
+Connection ~ 3400 2450
+Wire Wire Line
+	3400 2450 3800 2450
+Wire Wire Line
+	3000 2750 3000 2450
+Connection ~ 3000 2450
+Wire Wire Line
+	3000 2450 3200 2450
+Wire Wire Line
+	5900 2700 6000 2700
+Wire Wire Line
+	6000 2700 6000 2900
+Wire Wire Line
+	6000 2900 5800 2900
+Connection ~ 5800 2900
+Wire Wire Line
+	5800 2900 5800 3050
+Wire Wire Line
+	6850 2900 6850 3050
+Connection ~ 6850 2900
+Wire Wire Line
+	7100 2900 6850 2900
+Wire Wire Line
+	7100 2700 7100 2900
+Wire Wire Line
+	6950 2700 7100 2700
+Wire Wire Line
+	6300 2900 6300 2800
+Connection ~ 6300 2900
+Wire Wire Line
+	6500 2900 6300 2900
+Wire Wire Line
+	6500 2700 6500 2900
+Wire Wire Line
+	6400 2700 6500 2700
+Wire Wire Line
+	6850 2800 6850 2900
+Wire Wire Line
+	6300 3050 6300 2900
+Wire Wire Line
+	6850 2550 6850 2600
+Wire Wire Line
+	6300 2600 6300 2550
+Wire Wire Line
+	6300 2350 6300 2200
+Wire Wire Line
+	6650 2200 6850 2200
+Connection ~ 6650 2200
+Wire Wire Line
+	6650 2200 6650 2050
+Wire Wire Line
+	6850 2200 6850 2350
+Wire Wire Line
+	5800 2200 6300 2200
+$Comp
+L power:+12V #PWR?
+U 1 1 5E154A68
+P 6650 2050
+F 0 "#PWR?" H 6650 1900 50  0001 C CNN
+F 1 "+12V" H 6665 2223 50  0000 C CNN
+F 2 "" H 6650 2050 50  0001 C CNN
+F 3 "" H 6650 2050 50  0001 C CNN
+	1    6650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small Jdr3
+U 1 1 5E1535B4
+P 6850 2450
+F 0 "Jdr3" V 6850 2403 50  0000 R CNN
+F 1 "Jumper_NC_Small" V 6805 2403 50  0001 R CNN
+F 2 "" H 6850 2450 50  0001 C CNN
+F 3 "~" H 6850 2450 50  0001 C CNN
+	1    6850 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Small Jdr2
+U 1 1 5E15323E
+P 6300 2450
+F 0 "Jdr2" V 6300 2403 50  0000 R CNN
+F 1 "Jumper_NC_Small" V 6255 2403 50  0001 R CNN
+F 2 "" H 6300 2450 50  0001 C CNN
+F 3 "~" H 6300 2450 50  0001 C CNN
+	1    6300 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R Rdr3
+U 1 1 5E15286D
+P 6850 3200
+F 0 "Rdr3" H 6920 3246 50  0000 L CNN
+F 1 "100k" H 6920 3155 50  0000 L CNN
+F 2 "" V 6780 3200 50  0001 C CNN
+F 3 "~" H 6850 3200 50  0001 C CNN
+	1    6850 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rdr2
+U 1 1 5E152685
+P 6300 3200
+F 0 "Rdr2" H 6370 3246 50  0000 L CNN
+F 1 "10k" H 6370 3155 50  0000 L CNN
+F 2 "" V 6230 3200 50  0001 C CNN
+F 3 "~" H 6300 3200 50  0001 C CNN
+	1    6300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_Small RVdr3
+U 1 1 5E151661
+P 6850 2700
+F 0 "RVdr3" H 6791 2746 50  0000 R CNN
+F 1 "1Meg" H 6791 2655 50  0000 R CNN
+F 2 "" H 6850 2700 50  0001 C CNN
+F 3 "~" H 6850 2700 50  0001 C CNN
+	1    6850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_Small RVdr2
+U 1 1 5E15071D
+P 6300 2700
+F 0 "RVdr2" H 6241 2746 50  0000 R CNN
+F 1 "100k" H 6241 2655 50  0000 R CNN
+F 2 "" H 6300 2700 50  0001 C CNN
+F 3 "~" H 6300 2700 50  0001 C CNN
+	1    6300 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 2200
+Wire Wire Line
+	6300 2200 6650 2200
+Wire Wire Line
+	6300 3800 6850 3800
+Connection ~ 6300 3800
+Wire Wire Line
+	5800 3800 6300 3800
+Wire Wire Line
+	6850 3800 6850 3350
+Wire Wire Line
+	6300 3350 6300 3800
+Wire Wire Line
+	5800 3350 5800 3800
+Connection ~ 5800 3800
+Wire Wire Line
+	5100 3800 5800 3800
+$EndSCHEMATC
