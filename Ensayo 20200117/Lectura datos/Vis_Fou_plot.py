@@ -164,7 +164,7 @@ freqs_V2 = freqs_V1[0:spectrum_V2.size]
 
 # Representación en subplot de gráficos como vienen e invertidos
 
-fig, axs = plt.subplots(2, 2, figsize=(15,15))
+fig, axs = plt.subplots(2, 2, figsize=(16,9))
 fig.suptitle(nombre + ' 17/01' )
 axs[0,0].plot(time_V1_cort, V1_cort)
 axs[0,0].set_title('Long. cabezal (V1)')
