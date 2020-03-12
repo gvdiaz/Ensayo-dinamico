@@ -1,3 +1,10 @@
 #.git/info/exclude
+#
+# Archivos generados por jupyter
+#
 Ensayo 20200117/Lectura datos/.ipynb_checkpoints/
 Ensayo 20200208/Lectura datos/.ipynb_checkpoints/
+#
+#Archivos temporales de libre office
+#
+Documentacion/.~*
